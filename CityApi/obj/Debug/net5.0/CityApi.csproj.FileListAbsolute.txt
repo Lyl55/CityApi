@@ -104,3 +104,12 @@ C:\Users\user\source\repos\CityApi\CityApi\obj\Debug\net5.0\refint\CityApi.dll
 C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\HealthChecks.SqlServer.dll
 C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\HealthChecks.UI.InMemory.Storage.dll
 C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
