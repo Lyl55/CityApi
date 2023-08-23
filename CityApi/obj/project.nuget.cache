@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ef9CLW6BM6PrS0Bka7IEieRtSyf2Dy294Llu62vMdX65G0Ag8s96seHXu70SA4ht+JVfU+I9CJ0oOn4NDg3qvA==",
+  "dgSpecHash": "cgM1nrLmX5Af1nT8NOPu45Qq6Jgepme4qurkrZTu1briCeQ7m+vWa0f+EuQMVwuH8EX59ryb63m1ydIrfFQtuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\CityApi\\CityApi\\CityApi.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,9 @@
     "C:\\Users\\user\\.nuget\\packages\\aspnetcore.healthchecks.ui.inmemory.storage\\5.0.0\\aspnetcore.healthchecks.ui.inmemory.storage.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fractions\\4.0.1\\fractions.4.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\kubernetesclient\\3.0.12\\kubernetesclient.3.0.12.nupkg.sha512",

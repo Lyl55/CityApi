@@ -113,3 +113,6 @@ C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Settings.Con
 C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\user\source\repos\CityApi\CityApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

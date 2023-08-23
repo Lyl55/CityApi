@@ -10,11 +10,13 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using CityApi.Core.Entities;
 using CityApi.Data;
 using CityApi.Services.CityService;
+using FluentValidation.AspNetCore;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
@@ -35,7 +37,8 @@ namespace CityApi
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(c => 
+                c.RegisterValidatorsFromAssemblyContaining<Startup>());
             services.AddControllers().AddNewtonsoftJson();
             services.AddAutoMapper(typeof(Program).Assembly);
             services.AddTransient<ICityService, CityService>();
