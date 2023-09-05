@@ -4,14 +4,16 @@ using CityApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CityApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230904120443_MyMigration")]
+    partial class MyMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,12 +37,7 @@ namespace CityApi.Migrations
                     b.Property<int>("RgbCity")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("CityEntities");
                 });
@@ -64,20 +61,6 @@ namespace CityApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserEntities");
-                });
-
-            modelBuilder.Entity("CityApi.Core.Entities.CityEntity", b =>
-                {
-                    b.HasOne("CityApi.Core.Entities.UserEntity", "User")
-                        .WithMany("CityEntities")
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("CityApi.Core.Entities.UserEntity", b =>
-                {
-                    b.Navigation("CityEntities");
                 });
 #pragma warning restore 612, 618
         }

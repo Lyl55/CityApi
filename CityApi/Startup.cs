@@ -42,12 +42,12 @@ namespace CityApi
             services.AddControllers().AddNewtonsoftJson();
             services.AddAutoMapper(typeof(Program).Assembly);
             services.AddTransient<ICityService, CityService>();
+            services.AddTransient<IAuthorRepository, AuthorRepository>();
             services.AddDbContext<DataContext>(options=>options.UseSqlServer(Configuration.
                 GetConnectionString("DefaultConnection")));
             services.AddHealthChecks().AddSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             services.AddHealthChecksUI().AddInMemoryStorage();
-
-           
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CityApi", Version = "v1" });

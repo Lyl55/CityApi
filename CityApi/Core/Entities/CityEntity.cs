@@ -8,5 +8,6 @@ namespace CityApi.Core.Entities
         public string Name { get; set; }
         public string Population { get; set; }
         public RgbCity RgbCity { get; set; }
+        public UserEntity? User { get; set; }
     }
 }
